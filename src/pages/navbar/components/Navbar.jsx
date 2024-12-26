@@ -49,7 +49,7 @@ const Navbar = () => {
                         <div className="hidden sm:ml-6 sm:flex sm:items-center">
                             <a href="" className="relative inline-flex items-center px-6 py-2 text-md font-medium rounded-full shadow-sm text-black border-[#f75023] border-2 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#f75023] overflow-hidden group">
                                 <span className="relative z-10 transition-colors duration-300 group-hover:text-white">
-                                    Download CV
+                                  <a href="cv.pdf" download="cv.pdf"> Download CV</a>
                                 </span>
                                 <span className="absolute bottom-0 left-0 w-full h-0 transition-all duration-300 bg-[#f75023] group-hover:h-full" />
                             </a>
