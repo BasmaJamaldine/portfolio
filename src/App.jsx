@@ -29,14 +29,14 @@ function App() {
         {/* <AnimCursor /> */}
         <Navbar />
         <div id="home">
- <Hero  />
+          <Hero />
         </div>
-       
+
       </div>
       <div id="about">
         <About />
       </div>
-     
+
       <div id="skills">
         <Skils />
       </div>

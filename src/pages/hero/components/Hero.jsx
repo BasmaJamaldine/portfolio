@@ -42,11 +42,11 @@ const Hero = () => {
            </a>
             <div
              className='text-3xl text-[#238083] flex flex-row gap-6'>
-             <a href="">
+             <a href="https://www.linkedin.com/in/basma-jamaldine/" target="_blank">
               <motion.div
                 whileHover={{ scale: 1.5 }}
                 whileTap={{ scale: 0.9 }}>  <FaLinkedinIn /></motion.div></a>
-                  <a href="">
+                <a href="mailto:jamaleddinebassmajamaleddine@gmail.com" target="_blank">
               <motion.div
                 whileHover={{ scale: 1.5 }}
                 whileTap={{ scale: 0.9 }}> <BiLogoGmail /></motion.div></a>
