@@ -28,7 +28,10 @@ function App() {
       <div style={backgroundStyle}>
         {/* <AnimCursor /> */}
         <Navbar />
-        <Hero />
+        <div id="home">
+ <Hero  />
+        </div>
+       
       </div>
       <div id="about">
         <About />
