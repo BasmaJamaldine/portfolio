@@ -9,6 +9,7 @@ import {slideInFromLeft} from "../../../variants"
 import { BiLogoGmail } from "react-icons/bi";
 
 
+
 const Hero = () => {
     return (
         <div className='flex justify-center'>
@@ -35,7 +36,7 @@ const Hero = () => {
         <a href="#about">
            <button  className="relative inline-flex items-center px-8 py-2 text-md rounded-full shadow-sm text-white border-[#f75023] bg-[#f75023] border-2 focus:outline-none focus:ring-2 focus:ring-offset-2 overflow-hidden group">
               <span className="relative z-10 transition-colors duration-300 group-hover:text-black">
-                About Me
+               <a href="#about"> About Me</a>
               </span>
               <span className="absolute top-0 left-0 w-full h-0 transition-all duration-300 bg-[#f8f7f3] group-hover:h-full" />
             </button>

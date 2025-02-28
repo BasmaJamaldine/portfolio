@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {Images} from "../../../constant"
 import images from '../../../constant/images';
-
+import { MdOutlinePublic } from "react-icons/md";
 const ImageCarousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -33,7 +33,8 @@ const Project = () => {
   const projects = [
     {
       title: "Restaurant App",
-      images: [images.food, images.food1, Images.food2, Images.food3]
+      images: [images.food, images.food1, Images.food2, Images.food3],
+
     },
     {
       title: "Movie Streaming Platform",
@@ -65,8 +66,11 @@ const Project = () => {
         {projects.map((project, index) => (
           <div key={index} className="bg-white rounded-lg overflow-hidden shadow-lg">
             <ImageCarousel images={project.images} />
-            <div className="p-4 py-4">
+            <div className="p-4 py-4 flex items-center gap-3">
               <h3 className="text-2xl font-serif font-semibold text-[#f75023]">{project.title}</h3>
+        
+           <MdOutlinePublic className='font-bold'/>
+         
             </div>
           </div>
         ))}
