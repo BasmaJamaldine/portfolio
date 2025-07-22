@@ -60,8 +60,7 @@ const Contact = () => {
       <h3 className="text-center text-[#f75023] text-3xl font-semibold mb-4">Contact Me</h3>
       <h2 className="text-center text-4xl font-bold mb-6">I Want To Hear From You</h2>
       <p className="text-center text-gray-600 mb-12 text-lg">
-        Please fill out the form on this section to contact with me. Or call between<br />
-        9:00 a.m. and 8:00 p.m. ET, Monday through Friday
+        Please fill out the form on this section to contact with me. <br />
       </p>
 
       <div className="flex flex-col md:flex-row gap-[13vw] md:justify-center md:items-center ">
